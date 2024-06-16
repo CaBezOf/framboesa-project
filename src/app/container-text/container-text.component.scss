@@ -1,0 +1,35 @@
+.container {
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 24px;
+    font-family: 'agatho', sans-serif;
+}
+
+.small-container {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.big-container {
+    text-align: right;
+}
+
+.container-text {
+    font-family: 'agatho', sans-serif;
+}
+.box {
+    display: inline-block; /* Para que a caixa se ajuste ao conteúdo */
+    padding: 10px; /* Adicione um preenchimento para dar espaço ao texto */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Adicione uma borda */
+    border-radius: 5px; /* Arredonde as bordas */
+}
+
+
+@font-face {
+    font-family: 'agatho';
+    src: url('../../assets/fonts/agatho/Agatho_LightCAPS.otf') format('opentype');
+}

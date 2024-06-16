@@ -1,9 +1,12 @@
 .main-background {
     position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajusta a largura para preencher toda a largura da janela do navegador */
+    height: 100%; /* Ajusta a altura para preencher toda a altura da janela do navegador */
     border-radius: inherit; 
-    inset: 0px; 
-    background-size: 960px; 
-    background-image:  url('../../assets/background.webp'); 
+    background-size: 100% 100%; /* Torna o background preencher toda a largura e altura */
+    background-image: url('../../assets/background.webp'); 
     border: 0px; 
     background-repeat: repeat; 
     background-position: center top;
@@ -32,7 +35,7 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     color: white;
-    font-size: 50spx;
+    font-size: 20px;
     font-family: 'blackgold', sans-serif; /* Adicione a declaração para definir a fonte */
 }
 
